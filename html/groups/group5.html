@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+            position
+                static
+                absolute
+                fix
+                relative
+
+            z-index
+        */
+        .c1 {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+
+        #d1 {
+            background-color: red;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 999;
+            
+        }
+
+        #d2 {
+            background-color: blue;
+            position: fixed;
+            top: 50px;
+            left: 50px;
+            z-index: 777;
+        }
+
+        #d3 {
+            background-color: yellow;
+            position: fixed;
+            top: 70px;
+            left: 70px;
+            z-index: 888;
+        }
+
+        #d4 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 25px;
+            left: 25px;
+        }
+
+        #d5 {
+            position: fixed;
+            top: 400px;
+            right: 0px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1" class="c1"></div>
+    <div id="d2" class="c1"></div>
+    <div id="d3" class="c1">
+        <div id="d4" class="c1"></div>
+
+    </div>
+    <div id="d5" class="c1">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: white;
+            width: 100%;
+            height: 106px;
+        }
+
+        .top_menu_first_line {
+            background-color: grey;
+            height: 36px;
+            padding: 0 55px 0 55px;
+        }
+
+        .top_menu_second_line {
+            height: 70px;
+            padding: 0 55px 0 55px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #d1 ul {
+            list-style: none;
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #d1 {
+            width: 25%;
+            font-size: small;
+        }
+
+        .top_menu_first_line_logo {
+            width: 20%;
+        }
+
+        .top_menu_nav {
+            display: flex;
+            justify-content: space-between;
+            line-height: 36px;
+        }
+
+        .top_menu_second_line_logo ul {
+            list-style: none;
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .top_menu_second_line_logo li {
+            font-weight: bold;
+            margin-left: 50px;
+        }
+
+        .top_menu_nav2 {
+            line-height: 70px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .top_menu_second_line_logo {
+            display: flex;
+        }
+
+        .top_menu_second_line_logo2 {
+            display: flex;
+            width: 260px;
+        }
+
+        .top_menu_second_line_logo2 ul {
+            list-style: none;
+            color: black;
+            font-size: small;
+            display: flex;
+            font-weight: bolder;
+            padding-left: 10px;
+        }
+
+        .contents_top h1 {
+            font-weight: bolder;
+            font-size: xx-large;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contents_top h3 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contents_top {
+            margin: 0 50px 0 50px;
+        }
+
+        .contents_top img{
+            margin: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .comment {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        #c1 a {
+            width: 140px;
+            height: 48px;
+            border: 1px black solid;
+            border-radius: 5%;
+            padding: 15px 10px 15px 10px;
+            font-weight: bold;
+        }
+
+        #c2 a {
+            width: 140px;
+            height: 48px;
+            border: 1px black solid;
+            border-radius: 5%;
+            padding: 15px 10px 15px 10px;
+            margin-left: 10px;
+            color: white;
+            background-color: black;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header_wrap">
+            <div class="top_menu_first_line">
+                <div class="top_menu_nav">
+                    <div class="top_menu_first_line_logo">
+                        <a href="#"><img src="../images/e1.png"></a>
+                        <a href="#"><img src="../images/logo_mynb.png"></a>
+                    </div>
+                    <div id="d1">
+                        <ul>
+                            <li><a href="#">매장찾기</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">FAQS</a></li>
+                            <li><a href="#">이벤트</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="top_menu_second_line">
+                <div class="top_menu_nav2">
+                    <div class="top_menu_second_line_logo">
+                        <a href="#"><img src="../images/logo_60x29.png"></a>
+                        <ul>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Kids</a></li>
+                            <li><a href="#">Sale</a></li>
+                            <li><a href="#">런칭캘린더</a></li>
+                        </ul>
+                    </div>
+                    <div class="top_menu_second_line_logo2">
+                        <ul>
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                        </ul>
+                        <a href="#"><img src="../images/bg_gnb_customer.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contents">
+        <div class="contents_top">
+            <a href="#"><img src="../images/main.jpg"></a>
+            <h1>740</h1>
+            <h3>뉴발란스 클래식 러닝의 새로운 시작</h3>
+            <div class="comment">
+                <div id="c1"><a href="#">더 알아보기</a></div>
+                <div id="c2"><a href="#">구매하기</a></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+</body>
+</html>

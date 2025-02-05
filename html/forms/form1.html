@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form 태그와 입력태그</h1>
+
+    <form action="url" method="post" >
+        <input type="button" value="button">
+        <input type="text">
+        <input type="password">
+        <input type="date">
+        <input type="file">
+        <!-- 여러개 중 하나 선택, name 속성의 값이 일치해야 같은 그룹으로 인식 -->
+        남<input type="radio" name="r1">
+        여<input type="radio" name="r1">
+        <br>
+        <div>
+            <!-- 여러 개 중에 여러 개 선택, name 속성의 값이 일치해야 같은 그룹으로 인식 -->
+             축구 <input type="checkbox" name="play">
+             야구 <input type="checkbox" name="play">
+             농구 <input type="checkbox" name="play">
+        </div>
+
+        <div>
+            <!-- 여러 개 중에 하나 선택 -->
+             <select>
+                <option>KT</option>
+                <option>SKT</option>
+                <option>LG</option>
+             </select>
+        </div>
+        <div>
+            <!-- 긴 글 입력 -->
+             <textarea rows="10" cols="30">
+
+             </textarea>
+        </div>
+    </form>
+
+</body>
+</html>
